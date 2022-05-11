@@ -12,26 +12,18 @@
             <!--Arrange label and input box to center-->
             <table align="center">
                 <tr>
-                    <td>
-                        Amount
-                    </td>
-                    <td>
-                        <input type="number" id="principal">
-                    </td>
+                    <td>Amount</td>
+                    <td><input type="number" id="principal"></td>
                 </tr>
                 <tr>
-                    <td>
-                        Interest Rate
-                    </td>
+                    <td>Interest Rate</td>
                     <td width="200px">   <!--Absolute size for the table-->
                         <input type="range" id="rate" min="1" max="20" value="10.50" onchange="updateRate()">
                         <span id="rate_val"> 10.50</span>%
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        No. of Years
-                    </td>
+                    <td>No. of Years</td>
                     <td>
                         <select id="years">  <!--Dropdown/ List Box-->
                             <option value="1">1</option>
@@ -48,9 +40,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <button onclick="compute()">Compute Interest</button>
-                    </td>
+                    <td><button onclick="compute()">Compute Interest</button></td>
                 </tr>
                 <tr>
                     <td colspan="2">   <!--Show the result-->
